@@ -1,4 +1,5 @@
 #include "cJinete.h"
+#include "cDragon.h"
 
 cJinete::cJinete(string nombre, string apellido, string apodo, string fnac, string caractFisicas, resulEntrenamiento resultado, int cantDragon)
 {
@@ -9,10 +10,7 @@ cJinete::cJinete(string nombre, string apellido, string apodo, string fnac, stri
 	this->caractFisicas = caractFisicas;//cambiar
 	this->resultado = resultado;
 	this->cantDragones = cantDragones;
-	list<cDragones*>misdragones;
-
-
-
+	list<cDragon*>misdragones;
 }
 
 cJinete::~cJinete()
