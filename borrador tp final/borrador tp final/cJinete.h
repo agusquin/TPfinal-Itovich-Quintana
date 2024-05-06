@@ -24,10 +24,7 @@ class cJinete
 	int cantDragones; //cantidad de dragones que el jinete tiene asociados
 	static int cantJinetesIsla;
 	//HACER LISTA DE DRAGONES
-	list<cDragones*>misdragones;
-
-
-
+	list<cDragon*>misdragones;
 public:
 	cJinete(string nombre, string apellido, string apodo, string fnac, string caractFisicas, resulEntrenamiento resultado, int cantDragon);
 	~cJinete();
