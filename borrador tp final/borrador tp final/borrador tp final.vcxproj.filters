@@ -24,12 +24,24 @@
     <ClCompile Include="cJinete.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cDragon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cEstrategia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cVikingo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cJinete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cDragon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cEstrategia.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
